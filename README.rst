@@ -38,7 +38,7 @@ XploitsR | XRDownloader is a module for faster downloading of files.
       download(["link-1","link-2","link-3","and so on.."])
 
     # You can also specify a file that contains your links
-      download("your-file") # example: download("myLinks.txt")s
+      download("your-file") # example: download("myLinks.txt")
 
 **Examples:**
 
