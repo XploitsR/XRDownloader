@@ -78,7 +78,7 @@ XploitsR | XRDownloader is a module for faster downloading of files.
 .. |Logo| image:: https://raw.githubusercontent.com/XploitsR/XRDownloader/master/sub-logo.png
    :width: 50%
    :alt: screenshot of xrdownloader 
-   :target: https://pypi.org/project/xrdownloader
+   :target: https://raw.githubusercontent.com/XploitsR/XRDownloader/master/sub-logo.png
 .. |GitHub-Status| image:: https://img.shields.io/github/tag/XploitsR/XRDownloader.svg?maxAge=86400&logo=github&logoColor=white
    :target: https://github.com/XploitsR/XRDownloader/releases
 .. |GitHub-Forks| image:: https://img.shields.io/github/forks/XploitsR/XRDownloader.svg?logo=github&logoColor=white
