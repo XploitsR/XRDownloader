@@ -1,5 +1,3 @@
-|Logo|
-
 XRDownloader
 ============
         
@@ -7,7 +5,7 @@ XRDownloader
 
 XploitsR | XRDownloader is a module for faster downloading of files.
 
-**Installation**
+**Installation:**
 
 .. code:: sh
 
@@ -17,13 +15,13 @@ XploitsR | XRDownloader is a module for faster downloading of files.
 
 |GitHub-Status| |GitHub-Stars| |GitHub-Commits| |GitHub-Forks| |GitHub-Updated|
 
-Pull and install
+**Pull and install**
 
 .. code:: sh
     
     pip install -e git+https://github.com/XploitsR/XRDownloader.git@master#egg=XRDownloader
     
-**Usage**
+**Usage:**
 
 .. code:: python
 
@@ -42,9 +40,9 @@ Pull and install
     # You can also specify a file that contains your links
       download("your-file") # example: download("myLinks.txt")s
 
-**Examples**
+**Examples:**
 
-single file download
+**single file download**
 
 .. code:: python
 
@@ -54,7 +52,7 @@ single file download
     print(response)
 
         
-multiple file download
+**multiple file download**
    
 .. code:: python
 
@@ -64,7 +62,7 @@ multiple file download
     print(response)
 
 
-file that contains links of files to download 
+**file that contains links of files to download**
 
 .. code:: python
 
@@ -72,6 +70,10 @@ file that contains links of files to download
     xr = xrdownloader.XRDownloader()
     response = xr.download("xploitsr-links.txt")
     print(response)
+
+**Screenshot:**
+
+|Logo|
 
 .. |Logo| image:: https://raw.githubusercontent.com/XploitsR/XRDownloader/master/sub-logo.png
    :width: 50%
