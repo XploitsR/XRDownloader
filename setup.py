@@ -14,7 +14,7 @@ setuptools.setup(
    license="MIT",
    description="XploitsR | XRDownloader is a module for faster downloading of files.",
    long_description=long_description,
-   long_description_content_type="text/reStructuredText",
+   long_description_content_type="text/x-rst",
    url="https://github.com/XploitsR/XRDownloader",
    packages=setuptools.find_packages(),
    install_requires=[
