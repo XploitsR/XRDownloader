@@ -5,7 +5,7 @@ with open("README.rst","r") as f:
 
 setuptools.setup(
    name="xrdownloader",
-   version="1.0.4",
+   version="1.0.5",
    author="XploitsR Author (solomon narh)",
    author_email="solomonnarh97062@gmail.com",
    maintainer="XploitsR Authors",

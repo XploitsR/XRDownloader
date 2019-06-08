@@ -11,6 +11,8 @@ module -> Fast Files Downloader (^_^)
 => Aggressive security.
 => No loop holes.
 => Open source software.
+=> Live downloading statistics (progressbar) 
+=> Auto resume failed downloads
 
 ======
 Class:
@@ -52,16 +54,27 @@ Usage:
        print(res)
 """    
 
-import re,time,sys
-from .xrmain import main,pre,rawincount
+try:
+ import urllib3
+ import time,sys,re
+ from .xrmain import main
+except (ImportError,Exception) as e:
+ print(e)
+ quit()
+
+__author__ = "Solomon Narh (XploitsR)"
+
+__author_email__ = 'xploitsr@gmail.com'
 
 __docformat__ = 'reStructuredText'
 
-__version__ = '1.0.4'
+__url__ = 'https://pypi.org/project/xrdownloader'
 
-__version_info__ = (1,0,1,2,3,4)
+__version__ = '1.0.5'
 
-__version_details__ = 'progressbar has been added in version 1.0.4'
+__version_info__ = (1,0,1,2,3,4,5)
+
+__version_details__ = '(resume failed downloads) added in version 1.0.5'
 
 class XRDownloader:
    """defined class to call main() function"""
@@ -79,18 +92,21 @@ class XRDownloader:
         main(xrurl,typeO)
         pass
       except Exception as e:
-        import urllib3
         if str(e).lower() == 'write() argument must be str, not bytes':
           typeO = "w"
           main(xrurl,typeO)
+        elif re.search('Connection broken',str(urllib3.exceptions.NewConnectionError)):
+          print(e)
         elif urllib3.exceptions.NewConnectionError:
           print("[!] ConnectionError: invalid link or network error")
-          sys.exit()
         else:
           print("[!] " + str(e))
           sys.exit()
       except KeyboardInterrupt:
         print("Exiting...")
         sys.exit()
-      time.sleep(1)
+      time.sleep(0.5)
       return "[^] Done (^_^)"
+
+if __name__ == '__main__':
+   sys.exit()

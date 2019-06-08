@@ -1,9 +1,12 @@
-XRDownloader
+
+XRDownloader  
 ============
         
 |PyPI-Versions| |PyPI-Status| |PyPI-Downloads|
 
-XploitsR | XRDownloader is a module for faster downloading of files.
+XploitsR | XRDownloader is a module for faster downloading of files.  
+It supports all HTTP protocols and also supports auto resume failed downloads.  
+Has a progress-bar to show download statistics also.
 
 **Installation:**
 
@@ -71,6 +74,10 @@ XploitsR | XRDownloader is a module for faster downloading of files.
     response = xr.download("xploitsr-links.txt")
     print(response)
 
+``All links you typed since day one of using xrdownloader is saved in a file named:``
+**allXlinks.txt**
+``in every directory you used xrdownloader module``
+
 **Screenshot:**
 
 |Logo|
@@ -78,7 +85,7 @@ XploitsR | XRDownloader is a module for faster downloading of files.
 .. |Logo| image:: https://raw.githubusercontent.com/XploitsR/XRDownloader/master/sub-logo.png
    :width: 50%
    :alt: screenshot of xrdownloader 
-   :target: https://raw.githubusercontent.com/XploitsR/XRDownloader/master/sub-logo.png
+   :target: https://pypi.org/project/xrdownloader
 .. |GitHub-Status| image:: https://img.shields.io/github/tag/XploitsR/XRDownloader.svg?maxAge=86400&logo=github&logoColor=white
    :target: https://github.com/XploitsR/XRDownloader/releases
 .. |GitHub-Forks| image:: https://img.shields.io/github/forks/XploitsR/XRDownloader.svg?logo=github&logoColor=white
@@ -93,5 +100,5 @@ XploitsR | XRDownloader is a module for faster downloading of files.
    :target: https://pypi.org/project/xrdownloader
 .. |PyPI-Downloads| image:: https://img.shields.io/pypi/dm/xrdownloader.svg?label=pypi%20downloads&logo=python&logoColor=white
    :target: https://pypi.org/project/xrdownloader
-.. |PyPI-Versions| image:: https://img.shields.io/pypi/pyversions/xrdownloader.svg?label=pypi%20versions&logo=python&logoColor=white
+.. |PyPI-Versions| image:: https://img.shields.io/pypi/pyversions/xrdownloader.svg?logo=python&logoColor=white
    :target: https://pypi.org/project/xrdownloader
