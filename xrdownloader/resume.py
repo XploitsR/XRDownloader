@@ -28,7 +28,7 @@ def resume_download(url,url_split,http,dataD,typeO):
      [*] Preparing to resume / update-->({0})
 [=============================================================]
 """.format(url_split[:20] + (url_split[20:] and '...'))) # shorten longer urls
-   # send resume bytes
+   # send resume bytes 
    user_agent = { 'range':'bytes={0}-{1}'.format(local_file_size,url_file_size) }
    data = http.request('GET',url,preload_content=False,headers=user_agent)
    block_size = 1000
