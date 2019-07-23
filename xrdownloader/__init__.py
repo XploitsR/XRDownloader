@@ -70,9 +70,9 @@ __docformat__ = 'reStructuredText'
 
 __url__ = 'https://pypi.org/project/xrdownloader'
 
-__version__ = '1.0.5'
+__version__ = '1.0.6'
 
-__version_info__ = (1,0,1,2,3,4,5)
+__version_info__ = (1,0,1,2,3,4,5,6)
 
 __version_details__ = '(resume failed downloads) added in version 1.0.5'
 
