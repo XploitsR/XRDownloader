@@ -8,7 +8,7 @@ except (ImportError,Exception) as e:
  quit()
 
 def xrUrllib3():
-  # declare urllib3 module properties and methods
+  # declare urllib3 module properties and methods 
   user_agent = {'user-agent': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'}
   http = urllib3.PoolManager(
   cert_reqs='CERT_REQUIRED', 
