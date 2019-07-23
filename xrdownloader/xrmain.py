@@ -1,7 +1,7 @@
 # -*-coding: utf8;-*-
 
 #####################\
-# XRDownloader v1.0.5
+# XRDownloader v1.0.6
 #####################/
 
 #----------------------------------------------------------------------------
@@ -51,7 +51,8 @@ def rawincount(filename):
 
 # print preparing to download
 def pre(arg):
-  os.system("clear")
+  if sys.platform == 'linux':
+    os.system("clear")
   banner()
   time.sleep(2)
   print("""
@@ -177,7 +178,7 @@ def main(xrurl,typeO):
         [!] Don't be silly, can't download git files
 [=============================================================]
 """)
-             print("[!] please download git files with (git clone) command in your terminal")
+             print("[!] please download .git files with (git clone) command in your terminal")
              sys.exit()
           count += 1
           # check for invalid link type
