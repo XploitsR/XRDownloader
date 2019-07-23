@@ -7,7 +7,7 @@ except (ImportError,Exception) as e:
   quit()
 
 try:
-  # xrdownloader's banner
+  # xrdownloader's banner 
   def banner():
    print(pyfiglet.figlet_format("XRDOWNLOADER", font='slant'))
 except:
