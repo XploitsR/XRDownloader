@@ -5,7 +5,7 @@ with open("README.rst","r") as f:
 
 setuptools.setup(
    name="xrdownloader",
-   version="1.0.5",
+   version="1.0.6",
    author="XploitsR Author (solomon narh)",
    author_email="solomonnarh97062@gmail.com",
    maintainer="XploitsR Authors",
@@ -39,5 +39,5 @@ setuptools.setup(
        "Programming Language :: Python :: 3.6",
        "Programming Language :: Python :: 3.7",
    ],
-   keywords='xrdownloader fast-downloader xploitsr',
+   keywords='xrdownloader fast-downloader xploitsr-author1 xploitsr',
 )
