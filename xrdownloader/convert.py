@@ -7,7 +7,7 @@ except (ImportError,Exception) as e:
 
 def convert_byte(byte):
     if byte < 0:
-        print("[!] Cant download an empty file->Exiting...")
+        print("[!] Cant download an empty file->Exiting... ")
         quit()
 
     block_size = 1000
