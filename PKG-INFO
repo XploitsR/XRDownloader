@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: xrdownloader
-Version: 1.0.5
+Version: 1.0.6
 Summary: XploitsR | XRDownloader is a module for faster downloading of files.
 Home-page: https://github.com/XploitsR/XRDownloader
 Author: XploitsR Author (solomon narh)
@@ -8,8 +8,7 @@ Author-email: solomonnarh97062@gmail.com
 Maintainer: XploitsR Authors
 Maintainer-email: xploitsr@gmail.com
 License: MIT
-Description: 
-        XRDownloader  
+Description: XRDownloader  
         ============
                 
         |PyPI-Versions| |PyPI-Status| |PyPI-Downloads|
@@ -113,7 +112,7 @@ Description:
         .. |PyPI-Versions| image:: https://img.shields.io/pypi/pyversions/xrdownloader.svg?logo=python&logoColor=white
            :target: https://pypi.org/project/xrdownloader
         
-Keywords: xrdownloader fast-downloader xploitsr
+Keywords: xrdownloader fast-downloader xploitsr-author1 xploitsr
 Platform: any
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
