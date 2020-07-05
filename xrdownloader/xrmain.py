@@ -53,6 +53,8 @@ def rawincount(filename):
 def pre(arg):
   if sys.platform == 'linux':
     os.system("clear")
+  else:
+    os.system("cls")
   banner()
   time.sleep(2)
   print("""
