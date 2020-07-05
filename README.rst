@@ -81,7 +81,7 @@ Has a progress-bar to show download statistics also.
 
 |Logo|
 
-.. |Logo| image:: https://raw.githubusercontent.com/XploitsR/XRDownloader/master/sub-logo.png
+.. |Logo| image:: https://raw.githubusercontent.com/XploitsR/XRDownloader/master/v1.0.5.png
    :width: 50%
    :alt: screenshot of xrdownloader 
    :target: https://pypi.org/project/xrdownloader
